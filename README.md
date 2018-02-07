@@ -8,7 +8,8 @@ and acknowledge Kaggle for making the datasets available.
 2. We do not remove any stop words or symbols in the text;  
 3. If you run the Classification ACC.m, please run it on 64-bit machine;  
 4. Classification is fast, while Clustering is very slow via KMeans on so high-dimensionality text features, about 2 hours once. If you want to run clustering via KMeans, please have a little patience, and we strongly suggest that you directly refer the KMeans results in our paper [1] which reports the average results by running KMeans 500 times;  
-5. Please feel free to send me emails (*jacoxu@msn.com*) if you have any problems in using this package.
+5. The demo code can be found at [https://github.com/jacoxu/STC2](https://github.com/jacoxu/STC2)    
+6. Please feel free to send me emails (*jacoxu@msn.com*) if you have any problems in using this package.
 
 ./rawText: Raw text, 20,000 titles as short texts  
 　　-- label_StackOverflow.txt: Each title plus a tag/label at the end;  
